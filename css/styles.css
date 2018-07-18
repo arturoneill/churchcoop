@@ -362,6 +362,8 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
     .circle:nth-child(4) {
 	    background:url("https://arturoneill.github.io/personalpage/pictures/globe.png ");
 	    background-color:#0ebd94;
+	    background-attachment: fixed;
+    background-position: center; 
         position: absolute;
         bottom: 20px;
         right: 20px;
