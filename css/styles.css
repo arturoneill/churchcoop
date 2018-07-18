@@ -132,7 +132,98 @@ button.navbar-toggle {
 
     
     
+/*-------------------MAP---------------------*/
 
+#us-map{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+path{
+  stroke: #d3d3d3 !important;
+  stroke-width:1px !important;
+}
+
+path:hover, circle:hover {
+  stroke: #72cdff !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #72cdff !important;
+  cursor: pointer;
+}
+#path67 {
+  fill: none !important;
+  stroke: #A9A9A9 !important;
+  cursor: default;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 1px solid #d3d3d3;
+  border-radius: 0px;
+  padding: 5px;
+  font-family: arial;
+}
+
+.mapFrame {
+margin: auto;
+text-align: center;
+  height:550px;
+  width:65%;
+  
+}
+iframe {
+margin: auto;
+text-align: center;
+height:545px;
+  width:100%;
+
+}
+/*-----------------------SMALL SCREEN SIZES------------------------*/
+@media screen and (max-width: 767px){
+  
+  .mapFrame {
+  height:550px;
+  width:80%;
+  
+}
+	iframe {
+
+height:545px;
+  width:100%;
+
+}
+  
+}
+	
+
+
+/*-----------------------EXTRA SMALL SCREEN SIZES------------------------*/
+@media screen and (max-width: 400px){
+  
+  .mapFrame {
+  height:450px;
+  width:95%;
+  
+}
+
+	iframe {
+
+height:445px;
+  width:100%;
+
+}
+  
+}
 
 
 /*-----------------CIRCLES-----------------*/
