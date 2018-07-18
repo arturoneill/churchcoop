@@ -100,7 +100,8 @@ footer {
 }
 
 li:hover, li:focus, li:active {
-    background-color: DodgerBlue;
+    /*background-color: DodgerBlue;*/
+	background-color: #0ebd94;
 	
 
 }
