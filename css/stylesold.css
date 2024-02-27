@@ -1,0 +1,467 @@
+
+
+
+
+/*-----------------HTML AND BODY TAGS------------------------------------------------------*/
+
+html{
+	position:relative;
+	min-height:100%;
+}
+body{
+    font-family:'Nunito', sans-serif;
+	margin-bottom: 50px;
+	
+}
+
+
+
+.blocksection {
+    margin-top: 0px;
+	
+}
+
+.blocktitle {
+
+	font-family: 'Nunito', sans-serif;
+	font-weight: 800;
+	color:black;
+
+}
+	
+	h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    text-transform:uppercase;
+    font-size:32px;
+    margin-top: 20px;
+   
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#tricirclesection {
+    background-color: white;
+    margin-top: 50px;
+	
+}
+
+	
+
+	
+/*-----------------FOOTER---------------------------------------------------------------------*/
+/*.footer {
+	position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+.navbar-fixed-bottom {
+	border-width:0;
+	padding-top:15px;
+}
+*/
+
+
+.panel-footer {
+    border: 0;
+}
+
+
+footer {
+    background-color: #dcdcdc;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow:hidden;
+}
+
+/*-----------------Header----------------------------------------------------------------------*/
+#header-nav{
+    background-color: white;
+    border: 0px;
+    
+}
+
+.navbar-default .navbar-brand {
+    font-size: 1.5em;
+   
+}
+
+#collapsable-nav {
+    background-color:fuchsia;
+	
+    
+}
+
+/*----NAVBAR LIST ITEMS------------------------------*/
+
+
+#nav-list{
+    text-align:center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight:bold;
+    color: white;
+
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+li:hover, li:focus, li:active {
+    /*background-color: DodgerBlue;*/
+	background-color: #0ebd94;
+	
+
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+
+	 
+	   
+
+/*----NAVBAR TOGGLE BUTTON------------------------------*/
+
+button.navbar-toggle {
+    background-color:white;
+    border:0px;
+    
+}
+    
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color:white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:red;
+}
+
+
+    
+    
+/*-------------------MAP---------------------*/
+
+#us-map{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+path{
+  stroke: #d3d3d3 !important;
+  stroke-width:1px !important;
+}
+
+path:hover, circle:hover {
+  stroke: #72cdff !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #72cdff !important;
+  cursor: pointer;
+}
+#path67 {
+  fill: none !important;
+  stroke: #A9A9A9 !important;
+  cursor: default;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 1px solid #d3d3d3;
+  border-radius: 0px;
+  padding: 5px;
+  font-family: arial;
+}
+
+.mapFrame {
+margin: auto;
+text-align: center;
+  height:550px;
+  width:65%;
+  
+}
+iframe {
+margin: auto;
+text-align: center;
+height:545px;
+  width:100%;
+
+}
+/*-----------------------SMALL SCREEN SIZES------------------------*/
+@media screen and (max-width: 767px){
+  
+  .mapFrame {
+  height:550px;
+  width:80%;
+  
+}
+	iframe {
+
+height:545px;
+  width:100%;
+
+}
+  
+}
+	
+
+
+/*-----------------------EXTRA SMALL SCREEN SIZES------------------------*/
+@media screen and (max-width: 400px){
+  
+  .mapFrame {
+  height:450px;
+  width:95%;
+  
+}
+
+	iframe {
+
+height:445px;
+  width:100%;
+
+}
+  
+}
+
+
+/*-----------------CIRCLES-----------------*/
+
+
+.tricircle {
+    width: 300px;
+    height: 200px;
+    margin-top:75px;
+    margin-left:auto;
+    margin-right: auto;
+    position: relative;
+
+    }
+.circle {
+	background-color:black;
+    border-radius: 50%; 
+    border-color: white;
+    border-width: 10px;
+	 width:150px;
+	 height:150px;
+	 opacity: 0.75;
+    }
+
+
+
+div.circle {
+	
+	color:white;
+	text-transform:uppercase;
+	font-weight:800;
+
+	}
+
+div.circle:hover {
+	
+	
+	color:black;
+	text-transform:uppercase;
+	font-weight:800;
+
+	}
+a.circle_link {
+
+    display:inline-block;
+    width: 100%;
+    line-height: 150px;
+    color:white;
+}
+
+/*div>a {
+	   color:white;
+}
+*/
+	
+div>a:hover, div>a:focus, div>a:active {
+	   color:black;
+	text-decoration:none;
+}
+
+   
+
+/*----------------------------LARGE SCREEN ONLY---------------------------------*/ 
+
+@media screen and (min-width: 767px){
+  
+ #collapsable-nav {
+  background-color:white;
+  
+        }
+   
+     li {
+        color:black;
+        
+    }
+	
+ .navbar-nav ul li a:hover, .navbar-nav ul li a:focus, .navbar-nav ul li a:active {
+	   color:white;
+	 
+	   
+	}
+	
+li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
+        background-color:DodgerBlue;
+        color: white;
+	   opacity:0.75;
+    
+}
+   li:hover:nth-child(2), li:focus:nth-child(2), li:active:nth-child(2) {
+        background-color:fuchsia;
+        color: white;
+	   opacity:0.75;
+    
+}
+        li:hover:nth-child(3), li:focus:nth-child(3), li:active:nth-child(3) {
+        background-color:red;
+        color: white;
+		opacity:0.75;
+    
+}
+
+.panel-footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+    
+
+   
+/*-------------ARRANGING CIRCLES IN PYRAMID-------------------------------------*/
+    
+    .circle:nth-child(1) {
+	    background-color:fuchsia;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+	.circle:hover:nth-child(1), .circle:focus:nth-child(1), .circle:active:nth-child(1){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+	
+    .circle:nth-child(2) {
+	    background-color:#0ebd94;
+        position: absolute;
+        top: -70px;
+        left: 75px;
+    }
+	.circle:hover:nth-child(2), .circle:focus:nth-child(2), .circle:active:nth-child(2){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+    
+    .circle:nth-child(3) {
+	   /* background:url("https://arturoneill.github.io/personalpage/pictures/globe.png ");
+	   
+	    background-attachment: fixed;
+    background-position: left center; */
+	    background-color:#1e90ff;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+}
+
+/*#imgBubble {
+	position: absolute;
+        top: -104px;
+        right: -72px;
+	opacity:0.75;
+}
+	*/
+
+
+/*-----------------------SMALL SCREEN SIZES------------------------*/
+@media screen and (max-width: 767px){
+	
+	section {
+		margin-top: 50px;
+		
+	}
+	.tricircle {
+    width: 300px;
+    height: 400px;
+    margin-top:25px;
+    margin-left:auto;
+    margin-right: auto;
+    position: relative;
+
+    }
+	
+	
+/*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	
+	 .circle:nth-child(1) {
+	    background-color:fuchsia;
+        position: absolute;
+        top: -35px;
+        left: 75px;
+    }
+	.circle:hover:nth-child(1), .circle:focus:nth-child(1), .circle:active:nth-child(1){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+	
+    .circle:nth-child(2) {
+	    background-color:#0ebd94;
+        position: absolute;
+        top: 90px;
+        left: 75px;
+    }
+	.circle:hover:nth-child(2), .circle:focus:nth-child(2), .circle:active:nth-child(2){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+    
+    .circle:nth-child(3) {
+	    background-color:DodgerBlue;
+        position: absolute;
+       top: 215px;
+       left: 75px;
+    }
+	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+	
+#imgBubble {
+	position: absolute;
+        top: 183px;
+        left: 165px;
+	opacity:0.75;
+}
+}
