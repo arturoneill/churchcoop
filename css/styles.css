@@ -14,11 +14,11 @@ body{
 	
 }
 
-section {
+/*section {
     background-color: white;
     margin-top: 50px;
 	
-}
+}*/
 	
 	h1 {
     font-family: 'Nunito', sans-serif;
@@ -32,6 +32,14 @@ section {
 h2 {
     margin-bottom: 20px;
 }
+
+#tricirclesection {
+    background-color: white;
+    margin-top: 50px;
+	
+}
+
+	
 
 	
 /*-----------------FOOTER---------------------------------------------------------------------*/
