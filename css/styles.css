@@ -269,7 +269,7 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
     .circle:nth-child(1) {
 	    background-color:fuchsia;
         position: absolute;
-        bottom: 45px;
+        bottom: 65px;
         left: 50px;
     }
 	.circle:hover:nth-child(1), .circle:focus:nth-child(1), .circle:active:nth-child(1){
@@ -297,7 +297,7 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
     background-position: left center; */
 	    background-color:#1e90ff;
         position: absolute;
-        bottom: 45px;
+        bottom: 65px;
         right: 80px;
     }
 	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
