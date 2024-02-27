@@ -14,11 +14,10 @@ body{
 	
 }
 
-/*section {
-    background-color: white;
-    margin-top: 50px;
+.blocksection {
+    margin-top: 0px;
 	
-}*/
+}
 	
 	h1 {
     font-family: 'Nunito', sans-serif;
