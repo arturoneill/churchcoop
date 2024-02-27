@@ -405,10 +405,22 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 	
 	
 /*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	
-	 .circle:nth-child(2) {
+	 .circle:nth-child(1) {
 	    background-color:fuchsia;
         position: absolute;
         top: -35px;
+        left: 75px;
+    }
+	.circle:hover:nth-child(1), .circle:focus:nth-child(1), .circle:active:nth-child(1){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+	
+    .circle:nth-child(2) {
+	    background-color:DodgerBlue;
+        position: absolute;
+        top: 90px;
         left: 75px;
     }
 	.circle:hover:nth-child(2), .circle:focus:nth-child(2), .circle:active:nth-child(2){
@@ -416,26 +428,14 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 		color:black;
 		opacity:1;
     }
-	
-    .circle:nth-child(3) {
-	    background-color:DodgerBlue;
-        position: absolute;
-        top: 90px;
-        left: 75px;
-    }
-	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
-	    background-color:white;
-		color:black;
-		opacity:1;
-    }
     
-    .circle:nth-child(4) {
+    .circle:nth-child(3) {
 	    background-color:#0ebd94;
         position: absolute;
        top: 215px;
        left: 75px;
     }
-	.circle:hover:nth-child(4), .circle:focus:nth-child(4), .circle:active:nth-child(4){
+	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
 	    background-color:white;
 		color:black;
 		opacity:1;
