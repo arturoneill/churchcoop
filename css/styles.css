@@ -149,6 +149,14 @@ button.navbar-toggle {
 
 
 
+   
+
+/*----------------------------LARGE SCREEN ONLY---------------------------------*/ 
+
+@media screen and (min-width: 767px){
+
+
+	
 
 /*-----------------CIRCLES-----------------*/
 
@@ -208,11 +216,10 @@ div>a:hover, div>a:focus, div>a:active {
 	text-decoration:none;
 }
 
-   
 
-/*----------------------------LARGE SCREEN ONLY---------------------------------*/ 
 
-@media screen and (min-width: 767px){
+
+/*-------------------------------------------------------------------------*/	
   
  #collapsable-nav {
   background-color:white;
@@ -317,10 +324,14 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 		
 	}
 
+
 	
-	.tricircle {
+/*-----------------CIRCLES-----------------*/
+
+
+.tricircle {
     width: 300px;
-    height: 400px;
+    height: 200px;
     margin-top:25px;
     margin-left:auto;
     margin-right: auto;
@@ -328,6 +339,98 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 
     }
 
+
+
+.circle {
+	background-color:black;
+    border-radius: 50%; 
+    border-color: white;
+    border-width: 10px;
+	 width:90px;
+	 height:90px;
+	 opacity: 0.75;
+    }
+
+
+
+div.circle {
+	
+	color:white;
+	text-transform:uppercase;
+	font-weight:800;
+
+	}
+
+div.circle:hover {
+	
+	
+	color:black;
+	text-transform:uppercase;
+	font-weight:800;
+
+	}
+a.circle_link {
+
+    display:inline-block;
+    width: 100%;
+    line-height: 150px;
+    color:white;
+}
+
+/*div>a {
+	   color:white;
+}
+*/
+	
+div>a:hover, div>a:focus, div>a:active {
+	   color:black;
+	text-decoration:none;
+}
+
+
+  
+/*-------------ARRANGING CIRCLES IN PYRAMID-------------------------------------*/
+    
+    .circle:nth-child(1) {
+	    background-color:fuchsia;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+	.circle:hover:nth-child(1), .circle:focus:nth-child(1), .circle:active:nth-child(1){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+	
+    .circle:nth-child(2) {
+	    background-color:#0ebd94;
+        position: absolute;
+        top: -70px;
+        left: 75px;
+    }
+	.circle:hover:nth-child(2), .circle:focus:nth-child(2), .circle:active:nth-child(2){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+    
+    .circle:nth-child(3) {
+	   /* background:url("https://arturoneill.github.io/personalpage/pictures/globe.png ");
+	   
+	    background-attachment: fixed;
+    background-position: left center; */
+	    background-color:#1e90ff;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+}
 	
 	
 /*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	
