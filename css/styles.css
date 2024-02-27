@@ -395,7 +395,7 @@ div>a:hover, div>a:focus, div>a:active {
 	    background-color:fuchsia;
         position: absolute;
         bottom: 65px;
-        left: 55px;
+        left: 65px;
     }
 	.circle:hover:nth-child(1), .circle:focus:nth-child(1), .circle:active:nth-child(1){
 	    background-color:white;
@@ -407,7 +407,7 @@ div>a:hover, div>a:focus, div>a:active {
 	    background-color:#0ebd94;
         position: absolute;
         top: -10px;
-        left: 90px;
+        left: 100px;
     }
 	.circle:hover:nth-child(2), .circle:focus:nth-child(2), .circle:active:nth-child(2){
 	    background-color:white;
@@ -423,7 +423,7 @@ div>a:hover, div>a:focus, div>a:active {
 	    background-color:#1e90ff;
         position: absolute;
         bottom: 65px;
-        right: 85px;
+        right: 75px;
     }
 	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
 	    background-color:white;
