@@ -395,7 +395,7 @@ div>a:hover, div>a:focus, div>a:active {
 	    background-color:fuchsia;
         position: absolute;
         bottom: 65px;
-        left: 60px;
+        left: 55px;
     }
 	.circle:hover:nth-child(1), .circle:focus:nth-child(1), .circle:active:nth-child(1){
 	    background-color:white;
@@ -423,7 +423,7 @@ div>a:hover, div>a:focus, div>a:active {
 	    background-color:#1e90ff;
         position: absolute;
         bottom: 65px;
-        right: 90px;
+        right: 85px;
     }
 	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
 	    background-color:white;
